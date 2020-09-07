@@ -6,7 +6,7 @@ This module contains form fields to work with.
 
 from django import forms
 from django.core.exceptions import ValidationError, FieldError
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 # Feel free to extend this, see
 # http://www.iana.org/assignments/media-types/media-types.xhtml
